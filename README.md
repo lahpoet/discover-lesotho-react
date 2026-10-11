@@ -1,70 +1,133 @@
-# Getting Started with Create React App
+# Discover Lesotho – Tourism Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1. Project Description
 
-## Available Scripts
+Discover Lesotho is an interactive tourism website developed using React.js. The website helps local and international visitors discover tourist attractions, activities, and cultural experiences in Lesotho, also known as the Mountain Kingdom.
 
-In the project directory, you can run:
+The application provides information about destinations and allows visitors to search for attractions, filter them by category, view additional details, and submit a visitor enquiry form.
 
-### `npm start`
+## 2. Project Objectives
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Introduce Lesotho as a tourist destination.
+- Showcase tourist attractions and cultural experiences.
+- Help visitors find destinations using search and category filters.
+- Provide additional information about attractions.
+- Allow visitors to enter their travel enquiries through a form.
+- Provide a responsive and user-friendly interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 3. Main Features
 
-### `npm test`
+### Home Page
+- Welcome section introducing Lesotho.
+- Navigation links to different sections of the website.
+- Featured tourist destinations.
+- Introduction to Basotho culture and outdoor activities.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tourist Attractions
+The website includes eight attractions and experiences:
 
-### `npm run build`
+1. Maletsunyane Falls
+2. Thaba Bosiu
+3. Katse Dam
+4. Sehlabathebe National Park
+5. Afriski Mountain Resort
+6. Morija Museum and Archives
+7. Pony Trekking in Lesotho
+8. Liphofung Cave
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Each attraction includes information such as its name, location, category, image, description, activities, and estimated visiting cost.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Search and Category Filtering
+Visitors can search for attractions by name and filter destinations by category, including Nature, Adventure, and Culture and History.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Attraction Details
+Visitors can use the View Details button to reveal additional information about an attraction and hide it when finished.
 
-### `npm run eject`
+### Visitor Enquiry Form
+The form collects visitor information, including full name, email address, phone number, selected destination, number of visitors, preferred date, and message. It includes input validation, error messages, and a confirmation message.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Responsive Design
+CSS media queries are used to adapt the website layout to desktop, tablet, and mobile screens.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 4. Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Git
+- GitHub
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 5. Project Folder Structure
 
-## Learn More
+```text
+discover-lesotho/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── AttractionList.js
+│   │   └── EnquiryForm.js
+│   ├── data/
+│   │   └── attractions.js
+│   ├── App.js
+│   ├── App.css
+│   └── index.css
+├── .gitignore
+├── package.json
+└── README.md
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 6. Installation and Setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Requirements
+- Node.js
+- npm
+- Visual Studio Code or another code editor
 
-### Code Splitting
+### Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the repository:
 
-### Analyzing the Bundle Size
+   ```bash
+   git clone https://github.com/lahpoet/discover-lesotho-react.git
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Enter the project directory:
 
-### Making a Progressive Web App
+   ```bash
+   cd discover-lesotho-react
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. Install the dependencies:
 
-### Advanced Configuration
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. Start the development server:
 
-### Deployment
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+5. Open the following address in your browser:
 
-### `npm run build` fails to minify
+   `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The development server automatically reloads the website when supported code changes are saved.
+
+## 7. Important Notes
+
+- Estimated visiting costs are illustrative and should be verified before travelling.
+- The visitor enquiry form currently validates the entered information and displays a confirmation message in the browser. It does not send enquiries to a server or store them in a database.
+- Some attraction images may require an internet connection when they are loaded from external image URLs.
+
+## 8. Version Control
+
+Git is used to track project changes, and GitHub is used to host the source code.
+
+GitHub repository: https://github.com/lahpoet/discover-lesotho-react
+
+## 9. Conclusion
+
+Discover Lesotho provides an interactive starting point for exploring the country's natural attractions, cultural heritage, and outdoor activities. The application demonstrates the use of React components, state, events, form validation, and responsive CSS in developing a tourism website.
