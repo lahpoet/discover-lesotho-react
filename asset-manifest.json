@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/discover-lesotho-react/static/css/main.b5c07b8c.css",
+    "main.js": "/discover-lesotho-react/static/js/main.21251e72.js",
+    "static/js/453.cdb396da.chunk.js": "/discover-lesotho-react/static/js/453.cdb396da.chunk.js",
+    "index.html": "/discover-lesotho-react/index.html",
+    "main.b5c07b8c.css.map": "/discover-lesotho-react/static/css/main.b5c07b8c.css.map",
+    "main.21251e72.js.map": "/discover-lesotho-react/static/js/main.21251e72.js.map",
+    "453.cdb396da.chunk.js.map": "/discover-lesotho-react/static/js/453.cdb396da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5c07b8c.css",
+    "static/js/main.21251e72.js"
+  ]
+}
